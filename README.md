@@ -32,7 +32,7 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/predicting-neonatal-diseases.git
+git clone https://github.com/TecqHarishKrish/predicting-neonatal-diseases.git
 cd predicting-neonatal-diseases
 Install Required Packages
 
