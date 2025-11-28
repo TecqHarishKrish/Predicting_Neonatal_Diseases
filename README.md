@@ -3,6 +3,7 @@
 🔬 Overview
 This project aims to develop an AI-powered model for early detection of neonatal diseases using physiological and clinical data. Leveraging deep learning techniques like CNN and CNN-LSTM, the model helps identify health complications in newborns for faster intervention and improved healthcare outcomes.
 
+
 📁 Project Structure
 File	Description
 bidmc_final_merged.csv	Final merged dataset containing neonatal patient health records.
