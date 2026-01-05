@@ -63,28 +63,21 @@ graph TD
 ## 📊 Performance Metrics
 
 ### Model Performance
-```mermaid
-barChart
-    title Model Performance Metrics
-    x-axis Metric
-    y-axis Score 0.0 1.0
-    bar Accuracy 0.98
-    bar Precision 0.98
-    bar Recall 0.98
-    bar F1-Score 0.98
-```
+| Metric    | Score |
+|-----------|-------|
+| Accuracy  | 0.98  |
+| Precision | 0.98  |
+| Recall    | 0.98  |
+| F1-Score  | 0.98  |
 
 ### Training Progress
-```mermaid
-lineChart
-    title Training Progress
-    x-axis Epochs 1 5 10 15 20
-    y-axis Loss 0 0.5 1.0
-    y-axis Accuracy 0.9 1.0
-    series "Training Loss" : 0.28, 0.11, 0.06, 0.04, 0.03
-    series "Validation Loss" : 0.11, 0.10, 0.07, 0.06, 0.07
-    series "Training Accuracy" : 0.90, 0.96, 0.98, 0.98, 0.99
-    series "Validation Accuracy" : 0.96, 0.97, 0.98, 0.98, 0.98
+| Epoch | Training Loss | Validation Loss | Training Accuracy | Validation Accuracy |
+|-------|---------------|------------------|-------------------|---------------------|
+| 1     | 0.28          | 0.11             | 0.90              | 0.96                |
+| 5     | 0.11          | 0.10             | 0.96              | 0.97                |
+| 10    | 0.06          | 0.07             | 0.98              | 0.98                |
+| 15    | 0.04          | 0.06             | 0.98              | 0.98                |
+| 20    | 0.03          | 0.07             | 0.99              | 0.98                |
 ```
 
 ## 🎯 Core Features
